@@ -1,0 +1,27 @@
+{
+	"name": "carlosafonso/guzzle-test-client",
+	"type": "library",
+	"description": "Helper library for easily mocking Guzzle HTTP clients in PHP unit tests",
+	"keywords": ["guzzle"],
+	"homepage": "https://github.com/carlosafonso/guzzle-test-client",
+	"license": "GPLv3",
+	"authors": [
+        {
+            "name": "Carlos Afonso Pérez",
+            "email": "carlos.afonso.perez@gmail.com",
+            "homepage": "https://github.com/carlosafonso",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afonso\\Guzzle\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
